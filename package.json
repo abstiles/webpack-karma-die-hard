@@ -16,5 +16,11 @@
     "error"
   ],
   "author": "Andrew Stiles",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "webpack": "^1.9.11"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0"
+  }
 }
