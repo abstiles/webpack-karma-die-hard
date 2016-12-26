@@ -1,0 +1,20 @@
+{
+  "name": "webpack-karma-die-hard",
+  "version": "1.0.0",
+  "description": "Webpack plugin to die when errors occur.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/abstiles/webpack-karma-die-hard"
+  },
+  "keywords": [
+    "karma",
+    "webpack",
+    "error"
+  ],
+  "author": "Andrew Stiles",
+  "license": "BSD-3-Clause"
+}
