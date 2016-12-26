@@ -3,7 +3,10 @@
 var chalk = require('chalk');
 var path = require('path');
 
-function WebpackKarmaDieHardPlugin(options = {}) {
+function WebpackKarmaDieHardPlugin(options) {
+  if (typeof(options) === undefined) {
+    options = {};
+  }
   chalk.enabled = options.colors !== false
 }
 
