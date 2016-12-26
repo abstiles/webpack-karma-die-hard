@@ -37,3 +37,9 @@ module.exports = function (config) {
   })
 }
 ```
+
+## Options
+
+The plugin takes an optional options object with the following options:
+
+* color: set to "false" to prevent colored logging to the console.
