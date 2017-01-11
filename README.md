@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/v/webpack-karma-die-hard.svg)](https://www.npmjs.com/package/webpack-karma-die-hard)
+[![npm](https://img.shields.io/npm/dt/webpack-karma-die-hard.svg)](https://www.npmjs.com/package/webpack-karma-die-hard)
+[![npm](https://img.shields.io/npm/l/webpack-karma-die-hard.svg)](https://www.npmjs.com/package/webpack-karma-die-hard)
+
 Plugin for Webpack to ensure errors cause it to quit with a non-zero exit code
 when used as a Karma preprocessor with the `karma-webpack` plugin. This works
 around known issues in `karma-webpack`.
