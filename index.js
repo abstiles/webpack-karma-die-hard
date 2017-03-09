@@ -15,16 +15,16 @@ WebpackKarmaDieHardPlugin.prototype.apply = function(compiler) {
     // Need to report warnings and errors manually, since these will not bubble
     // up to the user.
     stats.compilation.warnings.forEach(function (warning) {
-      if (warning.module) {
-        console.warn(chalk.yellow("WARNING: ./"
-            + path.relative("", warning.module.resource)));
+      if (warning.file) {
+        console.warn(chalk.yellow("WARNING in ./"
+          + path.relative("", warning.file)));
       }
       console.warn(chalk.yellow(warning.message || warning));
     });
     stats.compilation.errors.forEach(function (error) {
-      if (error.module) {
-        console.error(chalk.red("ERROR: ./"
-            + path.relative("", error.module.resource)));
+      if (error.file) {
+        console.error(chalk.red("ERROR in ./"
+          + path.relative("", error.file)));
       }
       console.error(chalk.red(error.message || error));
     });
